@@ -1,6 +1,6 @@
 {
   "exportFormatVersion": 2,
-  "exportTime": "2026-09-20 22:41:55",
+  "exportTime": "2026-09-20 22:43:48",
   "containerVersion": {
     "accountId": "0",
     "containerId": "0",
@@ -44,7 +44,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "1"
       },
       {
         "accountId": "0",
@@ -145,7 +146,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "2"
       },
       {
         "accountId": "0",
@@ -246,7 +248,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       },
       {
         "accountId": "0",
@@ -347,7 +350,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       },
       {
         "accountId": "0",
@@ -448,7 +452,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "4"
       },
       {
         "accountId": "0",
@@ -549,7 +554,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "4"
       },
       {
         "accountId": "0",
@@ -650,7 +656,8 @@
         "consentSettings": {
           "consentStatus": "NOT_SET"
         },
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       }
     ],
     "trigger": [
@@ -677,7 +684,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "2"
       },
       {
         "accountId": "0",
@@ -702,7 +710,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       },
       {
         "accountId": "0",
@@ -727,7 +736,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       },
       {
         "accountId": "0",
@@ -752,7 +762,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "4"
       },
       {
         "accountId": "0",
@@ -777,7 +788,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "4"
       },
       {
         "accountId": "0",
@@ -802,7 +814,8 @@
             ]
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "3"
       }
     ],
     "variable": [
@@ -819,7 +832,8 @@
             "value": "function () {\n  var el = {{Click Element}};\n  var s = el && el.closest ? el.closest('section,header,nav,footer') : null;\n  return s ? (s.id || s.tagName.toLowerCase()) : '';\n}"
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "2"
       },
       {
         "accountId": "0",
@@ -834,7 +848,8 @@
             "value": "function () {\n  var el = {{Click Element}};\n  if (!el) return '';\n  var b = el.closest ? el.closest('a,button,[role=button]') : el;\n  b = b || el;\n  return (b.getAttribute('aria-label') || b.textContent || '').replace(/\\s+/g, ' ').trim().slice(0, 80);\n}"
           }
         ],
-        "fingerprint": "0"
+        "fingerprint": "0",
+        "parentFolderId": "2"
       }
     ],
     "builtInVariable": [
@@ -879,6 +894,36 @@
         "containerId": "0",
         "type": "PAGE_URL",
         "name": "Page URL"
+      }
+    ],
+    "folder": [
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "folderId": "1",
+        "name": "01 - Configuração GA4",
+        "fingerprint": "0"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "folderId": "2",
+        "name": "02 - Cliques gerais",
+        "fingerprint": "0"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "folderId": "3",
+        "name": "03 - Apoio e PIX",
+        "fingerprint": "0"
+      },
+      {
+        "accountId": "0",
+        "containerId": "0",
+        "folderId": "4",
+        "name": "04 - Contato e redes sociais",
+        "fingerprint": "0"
       }
     ],
     "fingerprint": "0"
